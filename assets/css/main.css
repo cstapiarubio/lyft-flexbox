@@ -3,3 +3,48 @@
 	margin: 0;
 	padding: 0
 }
+
+/* diseño sección navegador*/
+
+.flex-container{
+	display: flex;
+}
+
+#navegador{
+	position: fixed;
+	background-color: #34224F;
+	width: 100%;
+}
+
+#navegador.flex-container{
+	justify-content: flex-end;
+	align-items:center;
+}
+
+#navegador img{
+	width: 90px;
+	margin-right: auto;
+	margin-left: 20px;
+}
+
+#navegador a{
+	display: inline-block;
+	text-decoration: none;
+	color:whitesmoke;
+	padding: 20px;
+}
+
+#boton-navegador{
+	border-radius: 10px;
+	width: 80px;
+	height: 35px;
+	color: whitesmoke;
+	background-color: #34224F;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+#navegador a:hover,
+#navegador button:hover{
+	color: #E81BD8;
+}
