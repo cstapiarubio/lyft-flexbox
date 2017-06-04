@@ -58,20 +58,40 @@
 
 #pie-pag.flex-container{
 	justify-content: flex-end;
-	align-items:center;
+	align-items:flex-start;
 }
 
 #pie-pag a{
-	display: inline-block;
+	justify-content: center;
+	display: block;
 	text-decoration: none;
 	color:whitesmoke;
 	padding: 10px;
 }
 
 #pie-pag img{
-	width: 90px;
+	width: 150px;
 }
 
 #pie-pag a:hover{
 	color: #E81BD8;
+}
+
+.box-cont-footer{
+	margin-left: 15px;
+}
+
+.box-img-footer{
+	margin-left: 380px;
+}
+
+
+#box-pie-footer{
+	background-color: #584C57;
+}
+
+
+#box-pie-footer.flex-container{
+	justify-content: center;
+	flex-direction: row;
 }
