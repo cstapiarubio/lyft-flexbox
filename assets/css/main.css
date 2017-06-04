@@ -48,3 +48,30 @@
 #navegador button:hover{
 	color: #E81BD8;
 }
+
+/* diseño sección footer*/
+
+#pie-pag{
+	background-color: #584C57; 
+	padding: 140px;
+} 
+
+#pie-pag.flex-container{
+	justify-content: flex-end;
+	align-items:center;
+}
+
+#pie-pag a{
+	display: inline-block;
+	text-decoration: none;
+	color:whitesmoke;
+	padding: 10px;
+}
+
+#pie-pag img{
+	width: 90px;
+}
+
+#pie-pag a:hover{
+	color: #E81BD8;
+}
