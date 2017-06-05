@@ -53,7 +53,7 @@
 
 #pie-pag{
 	background-color: #584C57; 
-	padding: 140px;
+	padding: 120px;
 } 
 
 #pie-pag.flex-container{
@@ -95,3 +95,33 @@
 	justify-content: center;
 	flex-direction: row;
 }
+
+/* diseño sección información*/
+
+video{
+	width: 100%;
+	position: fixed;
+	z-index: -1;
+}
+
+#box-informacion p,
+#box-informacion h1{
+	color: whitesmoke;
+	margin-top: 100px;
+} 
+
+#box-informacion.flex-container{
+	justify-content: flex-end;
+	align-items:flex-start;
+}
+
+#box-informacion div{
+	justify-content: center;
+	padding: 10px;
+}
+#box-informacion img{
+	width: 40%;
+	margin-top: 100px;
+}
+
+/* diseño sección videos*/
